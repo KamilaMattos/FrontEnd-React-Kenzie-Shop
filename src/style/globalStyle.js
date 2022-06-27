@@ -12,12 +12,11 @@ export const GlobalStyle = createGlobalStyle`
         --salmon: #fa7f72;
         --ligth-salmon: #fdcfca;
         --grey:  #282c34;
-        
     }
     body {
-        /* background: var(--background);
-        color: var(--grey-4); */
+        background: var(--white);
     }
+
     body, input, button {
         font-family: 'Inter', sans-serif;
         font-weight: 500;
@@ -32,8 +31,5 @@ export const GlobalStyle = createGlobalStyle`
     a{
         text-decoration: none;
     }
-    .Toastify__toast-theme--light {
-    background-color: var(--grey-1);
-    color: var(--grey-0)
-  }
+   
 `
